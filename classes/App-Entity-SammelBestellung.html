@@ -126,14 +126,14 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Entity-SammelBestellung.html#property_AdminID">$AdminID</a>
+    <a href="classes/App-Entity-SammelBestellung.html#property_AdminURL">$AdminURL</a>
     <span>
                 &nbsp;: mixed            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Entity-SammelBestellung.html#property_bestellungs">$bestellungs</a>
+    <a href="classes/App-Entity-SammelBestellung.html#property_Bestellung">$Bestellung</a>
     <span>
                 &nbsp;: mixed            </span>
 </dt>
@@ -147,7 +147,14 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Entity-SammelBestellung.html#property_PublicID">$PublicID</a>
+    <a href="classes/App-Entity-SammelBestellung.html#property_PublicURL">$PublicURL</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/App-Entity-SammelBestellung.html#property_Restaurant">$Restaurant</a>
     <span>
                 &nbsp;: mixed            </span>
 </dt>
@@ -168,14 +175,14 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-SammelBestellung.html#method_getAdminID">getAdminID()</a>
+    <a href="classes/App-Entity-SammelBestellung.html#method_getAdminURL">getAdminURL()</a>
     <span>
                         &nbsp;: string|null    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-SammelBestellung.html#method_getBestellungs">getBestellungs()</a>
+    <a href="classes/App-Entity-SammelBestellung.html#method_getBestellung">getBestellung()</a>
     <span>
                         &nbsp;: <abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-Bestellung.html"><abbr title="\App\Entity\Bestellung">Bestellung</abbr></a>&gt;    </span>
 </dt>
@@ -189,9 +196,16 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-SammelBestellung.html#method_getPublicID">getPublicID()</a>
+    <a href="classes/App-Entity-SammelBestellung.html#method_getPublicURL">getPublicURL()</a>
     <span>
                         &nbsp;: string|null    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-Entity-SammelBestellung.html#method_getRestaurant">getRestaurant()</a>
+    <span>
+                        &nbsp;: <a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null    </span>
 </dt>
 <dd></dd>
 
@@ -203,14 +217,21 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-SammelBestellung.html#method_setAdminID">setAdminID()</a>
+    <a href="classes/App-Entity-SammelBestellung.html#method_setAdminURL">setAdminURL()</a>
     <span>
                         &nbsp;: self    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-SammelBestellung.html#method_setPublicID">setPublicID()</a>
+    <a href="classes/App-Entity-SammelBestellung.html#method_setPublicURL">setPublicURL()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-Entity-SammelBestellung.html#method_setRestaurant">setRestaurant()</a>
     <span>
                         &nbsp;: self    </span>
 </dt>
@@ -235,23 +256,23 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_AdminID">
-        $AdminID
-        <a href="classes/App-Entity-SammelBestellung.html#property_AdminID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_AdminURL">
+        $AdminURL
+        <a href="classes/App-Entity-SammelBestellung.html#property_AdminURL" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$AdminID</span>
+    <span class="phpdocumentor-signature__name">$AdminURL</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -281,23 +302,23 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_bestellungs">
-        $bestellungs
-        <a href="classes/App-Entity-SammelBestellung.html#property_bestellungs" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_Bestellung">
+        $Bestellung
+        <a href="classes/App-Entity-SammelBestellung.html#property_Bestellung" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$bestellungs</span>
+    <span class="phpdocumentor-signature__name">$Bestellung</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -313,7 +334,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>(targetEntity=Bestellung::class, mappedBy=&quot;SammelBestellung&quot;)</p>
+                                                 <section class="phpdocumentor-description"><p>(targetEntity=Bestellung::class, mappedBy=&quot;sammelBestellung&quot;)</p>
 </section>
 
                                     </dd>
@@ -389,23 +410,23 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_PublicID">
-        $PublicID
-        <a href="classes/App-Entity-SammelBestellung.html#property_PublicID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_PublicURL">
+        $PublicURL
+        <a href="classes/App-Entity-SammelBestellung.html#property_PublicURL" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$PublicID</span>
+    <span class="phpdocumentor-signature__name">$PublicURL</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -422,6 +443,61 @@
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
                                                  <section class="phpdocumentor-description"><p>(type=&quot;string&quot;, length=255)</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_Restaurant">
+        $Restaurant
+        <a href="classes/App-Entity-SammelBestellung.html#property_Restaurant" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$Restaurant</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">ORM\ManyToOne</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(targetEntity=Restaurant::class, inversedBy=&quot;SammelBestellungen&quot;)</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">ORM\JoinColumn</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(nullable=false)</p>
 </section>
 
                                     </dd>
@@ -448,7 +524,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 </aside>
 
     
@@ -480,7 +556,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">79</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 </aside>
 
     
@@ -515,20 +591,20 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getAdminID">
-        getAdminID()
-        <a href="classes/App-Entity-SammelBestellung.html#method_getAdminID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getAdminURL">
+        getAdminURL()
+        <a href="classes/App-Entity-SammelBestellung.html#method_getAdminURL" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getAdminID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+                <span class="phpdocumentor-signature__name">getAdminURL</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
 
     
     
@@ -547,20 +623,20 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getBestellungs">
-        getBestellungs()
-        <a href="classes/App-Entity-SammelBestellung.html#method_getBestellungs" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getBestellung">
+        getBestellung()
+        <a href="classes/App-Entity-SammelBestellung.html#method_getBestellung" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getBestellungs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-Bestellung.html"><abbr title="\App\Entity\Bestellung">Bestellung</abbr></a>&gt;</span></code>
+                <span class="phpdocumentor-signature__name">getBestellung</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-Bestellung.html"><abbr title="\App\Entity\Bestellung">Bestellung</abbr></a>&gt;</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -587,7 +663,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 </aside>
 
     
@@ -612,20 +688,20 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getPublicID">
-        getPublicID()
-        <a href="classes/App-Entity-SammelBestellung.html#method_getPublicID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getPublicURL">
+        getPublicURL()
+        <a href="classes/App-Entity-SammelBestellung.html#method_getPublicURL" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getPublicID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+                <span class="phpdocumentor-signature__name">getPublicURL</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
 
     
     
@@ -644,6 +720,38 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getRestaurant">
+        getRestaurant()
+        <a href="classes/App-Entity-SammelBestellung.html#method_getRestaurant" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">77</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getRestaurant</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_removeBestellung">
         removeBestellung()
         <a href="classes/App-Entity-SammelBestellung.html#method_removeBestellung" class="headerlink"><i class="fas fa-link"></i></a>
@@ -651,7 +759,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">107</span>
 </aside>
 
     
@@ -686,26 +794,26 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_setAdminID">
-        setAdminID()
-        <a href="classes/App-Entity-SammelBestellung.html#method_setAdminID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_setAdminURL">
+        setAdminURL()
+        <a href="classes/App-Entity-SammelBestellung.html#method_setAdminURL" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setAdminID</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$AdminID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                <span class="phpdocumentor-signature__name">setAdminURL</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$AdminURL</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$AdminID</span>
+                <span class="phpdocumentor-signature__argument__name">$AdminURL</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -728,27 +836,69 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_setPublicID">
-        setPublicID()
-        <a href="classes/App-Entity-SammelBestellung.html#method_setPublicID" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_setPublicURL">
+        setPublicURL()
+        <a href="classes/App-Entity-SammelBestellung.html#method_setPublicURL" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setPublicID</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$PublicID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                <span class="phpdocumentor-signature__name">setPublicURL</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$PublicURL</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$PublicID</span>
+                <span class="phpdocumentor-signature__argument__name">$PublicURL</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setRestaurant">
+        setRestaurant()
+        <a href="classes/App-Entity-SammelBestellung.html#method_setRestaurant" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php"><a href="files/essens-bersichtswebseite-src-entity-sammelbestellung.html"><abbr title="Essens-bersichtswebseite/src/Entity/SammelBestellung.php">SammelBestellung.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">82</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setRestaurant</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$Restaurant</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$Restaurant</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 

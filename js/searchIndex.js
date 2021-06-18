@@ -11,6 +11,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Controller-CartContoller.html#method_index"
         },                {
+            "fqsen": "\\App\\Controller\\CartContoller\u003A\u003AaddItem\u0028\u0029",
+            "name": "addItem",
+            "summary": "",
+            "url": "classes/App-Controller-CartContoller.html#method_addItem"
+        },                {
             "fqsen": "\\App\\Controller\\HomeController",
             "name": "HomeController",
             "summary": "",
@@ -51,20 +56,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Bestellung.html#method_setGastName"
         },                {
-            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003AgetGerichte\u0028\u0029",
-            "name": "getGerichte",
+            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003AgetGerichtVariation\u0028\u0029",
+            "name": "getGerichtVariation",
             "summary": "",
-            "url": "classes/App-Entity-Bestellung.html#method_getGerichte"
+            "url": "classes/App-Entity-Bestellung.html#method_getGerichtVariation"
         },                {
-            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003AaddGerichte\u0028\u0029",
-            "name": "addGerichte",
+            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003AaddGerichtVariation\u0028\u0029",
+            "name": "addGerichtVariation",
             "summary": "",
-            "url": "classes/App-Entity-Bestellung.html#method_addGerichte"
+            "url": "classes/App-Entity-Bestellung.html#method_addGerichtVariation"
         },                {
-            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003AremoveGerichte\u0028\u0029",
-            "name": "removeGerichte",
+            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003AremoveGerichtVariation\u0028\u0029",
+            "name": "removeGerichtVariation",
             "summary": "",
-            "url": "classes/App-Entity-Bestellung.html#method_removeGerichte"
+            "url": "classes/App-Entity-Bestellung.html#method_removeGerichtVariation"
         },                {
             "fqsen": "\\App\\Entity\\Bestellung\u003A\u003AgetSammelBestellung\u0028\u0029",
             "name": "getSammelBestellung",
@@ -86,15 +91,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Bestellung.html#property_GastName"
         },                {
-            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003A\u0024Gerichte",
-            "name": "Gerichte",
+            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003A\u0024GerichtVariation",
+            "name": "GerichtVariation",
             "summary": "",
-            "url": "classes/App-Entity-Bestellung.html#property_Gerichte"
+            "url": "classes/App-Entity-Bestellung.html#property_GerichtVariation"
         },                {
-            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003A\u0024SammelBestellung",
-            "name": "SammelBestellung",
+            "fqsen": "\\App\\Entity\\Bestellung\u003A\u003A\u0024sammelBestellung",
+            "name": "sammelBestellung",
             "summary": "",
-            "url": "classes/App-Entity-Bestellung.html#property_SammelBestellung"
+            "url": "classes/App-Entity-Bestellung.html#property_sammelBestellung"
         },                {
             "fqsen": "\\App\\Entity\\Gericht",
             "name": "Gericht",
@@ -121,6 +126,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Gericht.html#method_setName"
         },                {
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AgetNummer\u0028\u0029",
+            "name": "getNummer",
+            "summary": "",
+            "url": "classes/App-Entity-Gericht.html#method_getNummer"
+        },                {
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AsetNummer\u0028\u0029",
+            "name": "setNummer",
+            "summary": "",
+            "url": "classes/App-Entity-Gericht.html#method_setNummer"
+        },                {
             "fqsen": "\\App\\Entity\\Gericht\u003A\u003AgetBeschreibung\u0028\u0029",
             "name": "getBeschreibung",
             "summary": "",
@@ -141,35 +156,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Gericht.html#method_setRestaurant"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AgetKategories\u0028\u0029",
-            "name": "getKategories",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AgetKategorie\u0028\u0029",
+            "name": "getKategorie",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#method_getKategories"
+            "url": "classes/App-Entity-Gericht.html#method_getKategorie"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AaddKategory\u0028\u0029",
-            "name": "addKategory",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AsetKategorie\u0028\u0029",
+            "name": "setKategorie",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#method_addKategory"
+            "url": "classes/App-Entity-Gericht.html#method_setKategorie"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AremoveKategory\u0028\u0029",
-            "name": "removeKategory",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AgetGerichtVariationen\u0028\u0029",
+            "name": "getGerichtVariationen",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#method_removeKategory"
+            "url": "classes/App-Entity-Gericht.html#method_getGerichtVariationen"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AgetGerichtVariations\u0028\u0029",
-            "name": "getGerichtVariations",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AaddGerichtVariationen\u0028\u0029",
+            "name": "addGerichtVariationen",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#method_getGerichtVariations"
+            "url": "classes/App-Entity-Gericht.html#method_addGerichtVariationen"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AaddGerichtVariation\u0028\u0029",
-            "name": "addGerichtVariation",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AremoveGerichtVariationen\u0028\u0029",
+            "name": "removeGerichtVariationen",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#method_addGerichtVariation"
-        },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003AremoveGerichtVariation\u0028\u0029",
-            "name": "removeGerichtVariation",
-            "summary": "",
-            "url": "classes/App-Entity-Gericht.html#method_removeGerichtVariation"
+            "url": "classes/App-Entity-Gericht.html#method_removeGerichtVariationen"
         },                {
             "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024id",
             "name": "id",
@@ -181,25 +191,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Gericht.html#property_Name"
         },                {
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024Nummer",
+            "name": "Nummer",
+            "summary": "",
+            "url": "classes/App-Entity-Gericht.html#property_Nummer"
+        },                {
             "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024Beschreibung",
             "name": "Beschreibung",
             "summary": "",
             "url": "classes/App-Entity-Gericht.html#property_Beschreibung"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024restaurant",
-            "name": "restaurant",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024Restaurant",
+            "name": "Restaurant",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#property_restaurant"
+            "url": "classes/App-Entity-Gericht.html#property_Restaurant"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024kategories",
-            "name": "kategories",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024Kategorie",
+            "name": "Kategorie",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#property_kategories"
+            "url": "classes/App-Entity-Gericht.html#property_Kategorie"
         },                {
-            "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024gerichtVariations",
-            "name": "gerichtVariations",
+            "fqsen": "\\App\\Entity\\Gericht\u003A\u003A\u0024GerichtVariationen",
+            "name": "GerichtVariationen",
             "summary": "",
-            "url": "classes/App-Entity-Gericht.html#property_gerichtVariations"
+            "url": "classes/App-Entity-Gericht.html#property_GerichtVariationen"
         },                {
             "fqsen": "\\App\\Entity\\GerichtVariation",
             "name": "GerichtVariation",
@@ -271,6 +286,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-GerichtVariation.html#method_removeBestellungen"
         },                {
+            "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003AgetGeloescht\u0028\u0029",
+            "name": "getGeloescht",
+            "summary": "",
+            "url": "classes/App-Entity-GerichtVariation.html#method_getGeloescht"
+        },                {
+            "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003AsetGeloescht\u0028\u0029",
+            "name": "setGeloescht",
+            "summary": "",
+            "url": "classes/App-Entity-GerichtVariation.html#method_setGeloescht"
+        },                {
             "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -291,15 +316,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-GerichtVariation.html#property_Preis"
         },                {
-            "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003A\u0024Gericht",
-            "name": "Gericht",
+            "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003A\u0024gericht",
+            "name": "gericht",
             "summary": "",
-            "url": "classes/App-Entity-GerichtVariation.html#property_Gericht"
+            "url": "classes/App-Entity-GerichtVariation.html#property_gericht"
         },                {
-            "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003A\u0024bestellungen",
-            "name": "bestellungen",
+            "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003A\u0024Bestellungen",
+            "name": "Bestellungen",
             "summary": "",
-            "url": "classes/App-Entity-GerichtVariation.html#property_bestellungen"
+            "url": "classes/App-Entity-GerichtVariation.html#property_Bestellungen"
+        },                {
+            "fqsen": "\\App\\Entity\\GerichtVariation\u003A\u003A\u0024geloescht",
+            "name": "geloescht",
+            "summary": "",
+            "url": "classes/App-Entity-GerichtVariation.html#property_geloescht"
         },                {
             "fqsen": "\\App\\Entity\\Kategorie",
             "name": "Kategorie",
@@ -326,30 +356,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Kategorie.html#method_setBezeichner"
         },                {
-            "fqsen": "\\App\\Entity\\Kategorie\u003A\u003AgetRestaurant\u0028\u0029",
-            "name": "getRestaurant",
-            "summary": "",
-            "url": "classes/App-Entity-Kategorie.html#method_getRestaurant"
-        },                {
-            "fqsen": "\\App\\Entity\\Kategorie\u003A\u003AsetRestaurant\u0028\u0029",
-            "name": "setRestaurant",
-            "summary": "",
-            "url": "classes/App-Entity-Kategorie.html#method_setRestaurant"
-        },                {
             "fqsen": "\\App\\Entity\\Kategorie\u003A\u003AgetGerichte\u0028\u0029",
             "name": "getGerichte",
             "summary": "",
             "url": "classes/App-Entity-Kategorie.html#method_getGerichte"
         },                {
-            "fqsen": "\\App\\Entity\\Kategorie\u003A\u003AaddGerichte\u0028\u0029",
-            "name": "addGerichte",
+            "fqsen": "\\App\\Entity\\Kategorie\u003A\u003AaddGericht\u0028\u0029",
+            "name": "addGericht",
             "summary": "",
-            "url": "classes/App-Entity-Kategorie.html#method_addGerichte"
+            "url": "classes/App-Entity-Kategorie.html#method_addGericht"
         },                {
-            "fqsen": "\\App\\Entity\\Kategorie\u003A\u003AremoveGerichte\u0028\u0029",
-            "name": "removeGerichte",
+            "fqsen": "\\App\\Entity\\Kategorie\u003A\u003AremoveGericht\u0028\u0029",
+            "name": "removeGericht",
             "summary": "",
-            "url": "classes/App-Entity-Kategorie.html#method_removeGerichte"
+            "url": "classes/App-Entity-Kategorie.html#method_removeGericht"
         },                {
             "fqsen": "\\App\\Entity\\Kategorie\u003A\u003A\u0024id",
             "name": "id",
@@ -360,11 +380,6 @@ Search.appendIndex(
             "name": "Bezeichner",
             "summary": "",
             "url": "classes/App-Entity-Kategorie.html#property_Bezeichner"
-        },                {
-            "fqsen": "\\App\\Entity\\Kategorie\u003A\u003A\u0024Restaurant",
-            "name": "Restaurant",
-            "summary": "",
-            "url": "classes/App-Entity-Kategorie.html#property_Restaurant"
         },                {
             "fqsen": "\\App\\Entity\\Kategorie\u003A\u003A\u0024Gerichte",
             "name": "Gerichte",
@@ -436,6 +451,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Restaurant.html#method_setHausNr"
         },                {
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AgetOeffnungszeit\u0028\u0029",
+            "name": "getOeffnungszeit",
+            "summary": "",
+            "url": "classes/App-Entity-Restaurant.html#method_getOeffnungszeit"
+        },                {
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AsetOeffnungszeit\u0028\u0029",
+            "name": "setOeffnungszeit",
+            "summary": "",
+            "url": "classes/App-Entity-Restaurant.html#method_setOeffnungszeit"
+        },                {
             "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AgetGerichte\u0028\u0029",
             "name": "getGerichte",
             "summary": "",
@@ -451,20 +476,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Restaurant.html#method_removeGerichte"
         },                {
-            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AgetKategories\u0028\u0029",
-            "name": "getKategories",
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AgetSammelBestellungen\u0028\u0029",
+            "name": "getSammelBestellungen",
             "summary": "",
-            "url": "classes/App-Entity-Restaurant.html#method_getKategories"
+            "url": "classes/App-Entity-Restaurant.html#method_getSammelBestellungen"
         },                {
-            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AaddKategory\u0028\u0029",
-            "name": "addKategory",
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AaddSammelBestellungen\u0028\u0029",
+            "name": "addSammelBestellungen",
             "summary": "",
-            "url": "classes/App-Entity-Restaurant.html#method_addKategory"
+            "url": "classes/App-Entity-Restaurant.html#method_addSammelBestellungen"
         },                {
-            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AremoveKategory\u0028\u0029",
-            "name": "removeKategory",
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AremoveSammelBestellungen\u0028\u0029",
+            "name": "removeSammelBestellungen",
             "summary": "",
-            "url": "classes/App-Entity-Restaurant.html#method_removeKategory"
+            "url": "classes/App-Entity-Restaurant.html#method_removeSammelBestellungen"
+        },                {
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AgetOrt\u0028\u0029",
+            "name": "getOrt",
+            "summary": "",
+            "url": "classes/App-Entity-Restaurant.html#method_getOrt"
+        },                {
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003AsetOrt\u0028\u0029",
+            "name": "setOrt",
+            "summary": "",
+            "url": "classes/App-Entity-Restaurant.html#method_setOrt"
         },                {
             "fqsen": "\\App\\Entity\\Restaurant\u003A\u003A\u0024id",
             "name": "id",
@@ -496,15 +531,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-Restaurant.html#property_HausNr"
         },                {
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003A\u0024Oeffnungszeit",
+            "name": "Oeffnungszeit",
+            "summary": "",
+            "url": "classes/App-Entity-Restaurant.html#property_Oeffnungszeit"
+        },                {
             "fqsen": "\\App\\Entity\\Restaurant\u003A\u003A\u0024Gerichte",
             "name": "Gerichte",
             "summary": "",
             "url": "classes/App-Entity-Restaurant.html#property_Gerichte"
         },                {
-            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003A\u0024kategories",
-            "name": "kategories",
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003A\u0024SammelBestellungen",
+            "name": "SammelBestellungen",
             "summary": "",
-            "url": "classes/App-Entity-Restaurant.html#property_kategories"
+            "url": "classes/App-Entity-Restaurant.html#property_SammelBestellungen"
+        },                {
+            "fqsen": "\\App\\Entity\\Restaurant\u003A\u003A\u0024Ort",
+            "name": "Ort",
+            "summary": "",
+            "url": "classes/App-Entity-Restaurant.html#property_Ort"
         },                {
             "fqsen": "\\App\\Entity\\SammelBestellung",
             "name": "SammelBestellung",
@@ -521,30 +566,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-SammelBestellung.html#method_getId"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AgetPublicID\u0028\u0029",
-            "name": "getPublicID",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AgetAdminURL\u0028\u0029",
+            "name": "getAdminURL",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#method_getPublicID"
+            "url": "classes/App-Entity-SammelBestellung.html#method_getAdminURL"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AsetPublicID\u0028\u0029",
-            "name": "setPublicID",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AsetAdminURL\u0028\u0029",
+            "name": "setAdminURL",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#method_setPublicID"
+            "url": "classes/App-Entity-SammelBestellung.html#method_setAdminURL"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AgetAdminID\u0028\u0029",
-            "name": "getAdminID",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AgetPublicURL\u0028\u0029",
+            "name": "getPublicURL",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#method_getAdminID"
+            "url": "classes/App-Entity-SammelBestellung.html#method_getPublicURL"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AsetAdminID\u0028\u0029",
-            "name": "setAdminID",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AsetPublicURL\u0028\u0029",
+            "name": "setPublicURL",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#method_setAdminID"
+            "url": "classes/App-Entity-SammelBestellung.html#method_setPublicURL"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AgetBestellungs\u0028\u0029",
-            "name": "getBestellungs",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AgetRestaurant\u0028\u0029",
+            "name": "getRestaurant",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#method_getBestellungs"
+            "url": "classes/App-Entity-SammelBestellung.html#method_getRestaurant"
+        },                {
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AsetRestaurant\u0028\u0029",
+            "name": "setRestaurant",
+            "summary": "",
+            "url": "classes/App-Entity-SammelBestellung.html#method_setRestaurant"
+        },                {
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AgetBestellung\u0028\u0029",
+            "name": "getBestellung",
+            "summary": "",
+            "url": "classes/App-Entity-SammelBestellung.html#method_getBestellung"
         },                {
             "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003AaddBestellung\u0028\u0029",
             "name": "addBestellung",
@@ -561,20 +616,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Entity-SammelBestellung.html#property_id"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003A\u0024PublicID",
-            "name": "PublicID",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003A\u0024AdminURL",
+            "name": "AdminURL",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#property_PublicID"
+            "url": "classes/App-Entity-SammelBestellung.html#property_AdminURL"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003A\u0024AdminID",
-            "name": "AdminID",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003A\u0024PublicURL",
+            "name": "PublicURL",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#property_AdminID"
+            "url": "classes/App-Entity-SammelBestellung.html#property_PublicURL"
         },                {
-            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003A\u0024bestellungs",
-            "name": "bestellungs",
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003A\u0024Restaurant",
+            "name": "Restaurant",
             "summary": "",
-            "url": "classes/App-Entity-SammelBestellung.html#property_bestellungs"
+            "url": "classes/App-Entity-SammelBestellung.html#property_Restaurant"
+        },                {
+            "fqsen": "\\App\\Entity\\SammelBestellung\u003A\u003A\u0024Bestellung",
+            "name": "Bestellung",
+            "summary": "",
+            "url": "classes/App-Entity-SammelBestellung.html#property_Bestellung"
         },                {
             "fqsen": "\\App\\Kernel",
             "name": "Kernel",
@@ -641,11 +701,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Repository-RestaurantRepository.html#method___construct"
         },                {
-            "fqsen": "\\App\\Repository\\RestaurantRepository\u003A\u003AgibtAlleRestaurantsHer\u0028\u0029",
-            "name": "gibtAlleRestaurantsHer",
-            "summary": "",
-            "url": "classes/App-Repository-RestaurantRepository.html#method_gibtAlleRestaurantsHer"
-        },                {
             "fqsen": "\\App\\Repository\\SammelBestellungRepository",
             "name": "SammelBestellungRepository",
             "summary": "",
@@ -655,6 +710,111 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/App-Repository-SammelBestellungRepository.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Controller\\OrderCollectionController",
+            "name": "OrderCollectionController",
+            "summary": "",
+            "url": "classes/App-Controller-OrderCollectionController.html"
+        },                {
+            "fqsen": "\\App\\Controller\\OrderCollectionController\u003A\u003Aindex\u0028\u0029",
+            "name": "index",
+            "summary": "Das\u0020ist\u0020ein\u0020Test",
+            "url": "classes/App-Controller-OrderCollectionController.html#method_index"
+        },                {
+            "fqsen": "\\App\\Controller\\OrderCollectionController\u003A\u003Anew\u0028\u0029",
+            "name": "new",
+            "summary": "",
+            "url": "classes/App-Controller-OrderCollectionController.html#method_new"
+        },                {
+            "fqsen": "\\App\\Controller\\OrderCollectionController\u003A\u003AadminView\u0028\u0029",
+            "name": "adminView",
+            "summary": "",
+            "url": "classes/App-Controller-OrderCollectionController.html#method_adminView"
+        },                {
+            "fqsen": "\\App\\Controller\\OrderCollectionController\u003A\u003AsetSessionParam\u0028\u0029",
+            "name": "setSessionParam",
+            "summary": "",
+            "url": "classes/App-Controller-OrderCollectionController.html#method_setSessionParam"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort",
+            "name": "Ort",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_getId"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AgetPLZ\u0028\u0029",
+            "name": "getPLZ",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_getPLZ"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AsetPLZ\u0028\u0029",
+            "name": "setPLZ",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_setPLZ"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AgetOrt\u0028\u0029",
+            "name": "getOrt",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_getOrt"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AsetOrt\u0028\u0029",
+            "name": "setOrt",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_setOrt"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AgetRestaurants\u0028\u0029",
+            "name": "getRestaurants",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_getRestaurants"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AaddRestaurant\u0028\u0029",
+            "name": "addRestaurant",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_addRestaurant"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003AremoveRestaurant\u0028\u0029",
+            "name": "removeRestaurant",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#method_removeRestaurant"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#property_id"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003A\u0024PLZ",
+            "name": "PLZ",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#property_PLZ"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003A\u0024Ort",
+            "name": "Ort",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#property_Ort"
+        },                {
+            "fqsen": "\\App\\Entity\\Ort\u003A\u003A\u0024restaurants",
+            "name": "restaurants",
+            "summary": "",
+            "url": "classes/App-Entity-Ort.html#property_restaurants"
+        },                {
+            "fqsen": "\\App\\Repository\\OrtRepository",
+            "name": "OrtRepository",
+            "summary": "",
+            "url": "classes/App-Repository-OrtRepository.html"
+        },                {
+            "fqsen": "\\App\\Repository\\OrtRepository\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/App-Repository-OrtRepository.html#method___construct"
         },                {
             "fqsen": "\\",
             "name": "\\",

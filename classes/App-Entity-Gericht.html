@@ -133,7 +133,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Entity-Gericht.html#property_gerichtVariations">$gerichtVariations</a>
+    <a href="classes/App-Entity-Gericht.html#property_GerichtVariationen">$GerichtVariationen</a>
     <span>
                 &nbsp;: mixed            </span>
 </dt>
@@ -147,7 +147,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Entity-Gericht.html#property_kategories">$kategories</a>
+    <a href="classes/App-Entity-Gericht.html#property_Kategorie">$Kategorie</a>
     <span>
                 &nbsp;: mixed            </span>
 </dt>
@@ -161,7 +161,14 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/App-Entity-Gericht.html#property_restaurant">$restaurant</a>
+    <a href="classes/App-Entity-Gericht.html#property_Nummer">$Nummer</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/App-Entity-Gericht.html#property_Restaurant">$Restaurant</a>
     <span>
                 &nbsp;: mixed            </span>
 </dt>
@@ -175,14 +182,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-Gericht.html#method_addGerichtVariation">addGerichtVariation()</a>
-    <span>
-                        &nbsp;: self    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-Gericht.html#method_addKategory">addKategory()</a>
+    <a href="classes/App-Entity-Gericht.html#method_addGerichtVariationen">addGerichtVariationen()</a>
     <span>
                         &nbsp;: self    </span>
 </dt>
@@ -196,7 +196,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-Gericht.html#method_getGerichtVariations">getGerichtVariations()</a>
+    <a href="classes/App-Entity-Gericht.html#method_getGerichtVariationen">getGerichtVariationen()</a>
     <span>
                         &nbsp;: <abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a>&gt;    </span>
 </dt>
@@ -210,14 +210,21 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-Gericht.html#method_getKategories">getKategories()</a>
+    <a href="classes/App-Entity-Gericht.html#method_getKategorie">getKategorie()</a>
     <span>
-                        &nbsp;: <abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>&gt;    </span>
+                        &nbsp;: <a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>|null    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Entity-Gericht.html#method_getName">getName()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-Entity-Gericht.html#method_getNummer">getNummer()</a>
     <span>
                         &nbsp;: string|null    </span>
 </dt>
@@ -231,14 +238,7 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-Gericht.html#method_removeGerichtVariation">removeGerichtVariation()</a>
-    <span>
-                        &nbsp;: self    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/App-Entity-Gericht.html#method_removeKategory">removeKategory()</a>
+    <a href="classes/App-Entity-Gericht.html#method_removeGerichtVariationen">removeGerichtVariationen()</a>
     <span>
                         &nbsp;: self    </span>
 </dt>
@@ -252,7 +252,21 @@
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-Entity-Gericht.html#method_setKategorie">setKategorie()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Entity-Gericht.html#method_setName">setName()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/App-Entity-Gericht.html#method_setNummer">setNummer()</a>
     <span>
                         &nbsp;: self    </span>
 </dt>
@@ -293,7 +307,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 </aside>
 
     
@@ -316,7 +330,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>(type=&quot;text&quot;)</p>
+                                                 <section class="phpdocumentor-description"><p>(type=&quot;text&quot;, nullable=true)</p>
 </section>
 
                                     </dd>
@@ -330,23 +344,23 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_gerichtVariations">
-        $gerichtVariations
-        <a href="classes/App-Entity-Gericht.html#property_gerichtVariations" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_GerichtVariationen">
+        $GerichtVariationen
+        <a href="classes/App-Entity-Gericht.html#property_GerichtVariationen" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$gerichtVariations</span>
+    <span class="phpdocumentor-signature__name">$GerichtVariationen</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -362,7 +376,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>(targetEntity=GerichtVariation::class, mappedBy=&quot;Gericht&quot;)</p>
+                                                 <section class="phpdocumentor-description"><p>(targetEntity=GerichtVariation::class, mappedBy=&quot;gericht&quot;)</p>
 </section>
 
                                     </dd>
@@ -438,23 +452,23 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_kategories">
-        $kategories
-        <a href="classes/App-Entity-Gericht.html#property_kategories" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_Kategorie">
+        $Kategorie
+        <a href="classes/App-Entity-Gericht.html#property_Kategorie" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$kategories</span>
+    <span class="phpdocumentor-signature__name">$Kategorie</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -466,11 +480,11 @@
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">ORM\ManyToMany</span>
+                    <span class="phpdocumentor-tag__name">ORM\ManyToOne</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>(targetEntity=Kategorie::class, mappedBy=&quot;Gerichte&quot;)</p>
+                                                 <section class="phpdocumentor-description"><p>(targetEntity=Kategorie::class, inversedBy=&quot;Gerichte&quot;)</p>
 </section>
 
                                     </dd>
@@ -530,23 +544,69 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_restaurant">
-        $restaurant
-        <a href="classes/App-Entity-Gericht.html#property_restaurant" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_Nummer">
+        $Nummer
+        <a href="classes/App-Entity-Gericht.html#property_Nummer" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$restaurant</span>
+    <span class="phpdocumentor-signature__name">$Nummer</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">ORM\Column</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(type=&quot;string&quot;, length=255, nullable=true)</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_Restaurant">
+        $Restaurant
+        <a href="classes/App-Entity-Gericht.html#property_Restaurant" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$Restaurant</span>
     </code>
 
         <section class="phpdocumentor-description"></section>
@@ -563,6 +623,15 @@
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
                                                  <section class="phpdocumentor-description"><p>(targetEntity=Restaurant::class, inversedBy=&quot;Gerichte&quot;)</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">ORM\JoinColumn</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(nullable=false)</p>
 </section>
 
                                     </dd>
@@ -589,7 +658,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 </aside>
 
     
@@ -614,69 +683,27 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_addGerichtVariation">
-        addGerichtVariation()
-        <a href="classes/App-Entity-Gericht.html#method_addGerichtVariation" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_addGerichtVariationen">
+        addGerichtVariationen()
+        <a href="classes/App-Entity-Gericht.html#method_addGerichtVariationen" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">130</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">addGerichtVariation</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gerichtVariation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                <span class="phpdocumentor-signature__name">addGerichtVariationen</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gerichtVariationen</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$gerichtVariation</span>
+                <span class="phpdocumentor-signature__argument__name">$gerichtVariationen</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_addKategory">
-        addKategory()
-        <a href="classes/App-Entity-Gericht.html#method_addKategory" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">103</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">addKategory</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$kategory</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$kategory</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -705,7 +732,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">87</span>
 </aside>
 
     
@@ -730,20 +757,20 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getGerichtVariations">
-        getGerichtVariations()
-        <a href="classes/App-Entity-Gericht.html#method_getGerichtVariations" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getGerichtVariationen">
+        getGerichtVariationen()
+        <a href="classes/App-Entity-Gericht.html#method_getGerichtVariationen" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
+    <span class="phpdocumentor-element-found-in__line">126</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getGerichtVariations</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a>&gt;</span></code>
+                <span class="phpdocumentor-signature__name">getGerichtVariationen</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a>&gt;</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -770,7 +797,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 </aside>
 
     
@@ -795,28 +822,27 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getKategories">
-        getKategories()
-        <a href="classes/App-Entity-Gericht.html#method_getKategories" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getKategorie">
+        getKategorie()
+        <a href="classes/App-Entity-Gericht.html#method_getKategorie" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getKategories</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>&gt;</span></code>
+                <span class="phpdocumentor-signature__name">getKategorie</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>|null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>|array&lt;string|int, <a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>&gt;</span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>|null</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -835,13 +861,45 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getNummer">
+        getNummer()
+        <a href="classes/App-Entity-Gericht.html#method_getNummer" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">75</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getNummer</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
 
     
     
@@ -867,7 +925,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">83</span>
+    <span class="phpdocumentor-element-found-in__line">99</span>
 </aside>
 
     
@@ -892,69 +950,27 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_removeGerichtVariation">
-        removeGerichtVariation()
-        <a href="classes/App-Entity-Gericht.html#method_removeGerichtVariation" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_removeGerichtVariationen">
+        removeGerichtVariationen()
+        <a href="classes/App-Entity-Gericht.html#method_removeGerichtVariationen" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
+    <span class="phpdocumentor-element-found-in__line">141</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">removeGerichtVariation</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gerichtVariation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                <span class="phpdocumentor-signature__name">removeGerichtVariationen</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gerichtVariationen</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$gerichtVariation</span>
+                <span class="phpdocumentor-signature__argument__name">$gerichtVariationen</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-GerichtVariation.html"><abbr title="\App\Entity\GerichtVariation">GerichtVariation</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_removeKategory">
-        removeKategory()
-        <a href="classes/App-Entity-Gericht.html#method_removeKategory" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">113</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">removeKategory</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$kategory</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$kategory</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -983,20 +999,62 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setBeschreibung</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$Beschreibung</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                <span class="phpdocumentor-signature__name">setBeschreibung</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$Beschreibung</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$Beschreibung</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setKategorie">
+        setKategorie()
+        <a href="classes/App-Entity-Gericht.html#method_setKategorie" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">116</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setKategorie</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$Kategorie</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$Kategorie</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Kategorie.html"><abbr title="\App\Entity\Kategorie">Kategorie</abbr></a>|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1025,7 +1083,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 </aside>
 
     
@@ -1060,6 +1118,48 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_setNummer">
+        setNummer()
+        <a href="classes/App-Entity-Gericht.html#method_setNummer" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">80</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setNummer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$Nummer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$Nummer</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setRestaurant">
         setRestaurant()
         <a href="classes/App-Entity-Gericht.html#method_setRestaurant" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1067,19 +1167,19 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="Essens-bersichtswebseite/src/Entity/Gericht.php"><a href="files/essens-bersichtswebseite-src-entity-gericht.html"><abbr title="Essens-bersichtswebseite/src/Entity/Gericht.php">Gericht.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">88</span>
+    <span class="phpdocumentor-element-found-in__line">104</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setRestaurant</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$restaurant</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                <span class="phpdocumentor-signature__name">setRestaurant</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$Restaurant</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$restaurant</span>
+                <span class="phpdocumentor-signature__argument__name">$Restaurant</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Entity-Restaurant.html"><abbr title="\App\Entity\Restaurant">Restaurant</abbr></a>|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
